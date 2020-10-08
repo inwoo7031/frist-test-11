@@ -26,7 +26,7 @@ class TrainerBase(nn.Module):
             logger.debug(f'Building {model_name} with: {architecture}')
             setattr(self,
                     model_name,
-                    getattr(networks, architecture)(model_config).cuda()
+                    getattr(networks, architecture)(model_config)
                     )
             parameters[model_config['optimizer_group']].extend(
                 getattr(self, model_name).parameters())

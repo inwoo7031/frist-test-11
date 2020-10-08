@@ -40,7 +40,7 @@ class StyleTransformer:
 
         self.trainer = getattr(trainers, self.config['trainer'])(self.config)
         if checkpoint_path is not None:
-            state_dict = torch.load(checkpoint_path)
+            state_dict = torch.load(checkpoint_path, map_location=torch.device('cpu'))
             state_dict_fixed = dict()
             for key in state_dict:
                 state_dict_fixed[key.replace('module.', '')] = state_dict[key]

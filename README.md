@@ -1,5 +1,11 @@
 # High-Resolution Daytime Translation Without Domain Labels
 
+Look [test.ipynb](test.ipynb) for simple code.
+
+![result](images/test/result.png)
+
+---
+
 ### [Project Page](https://saic-mdal.github.io/HiDT/) | [Video Explanation](https://youtu.be/DALQYKt-GJc) | [Paper](https://arxiv.org/abs/2003.08791) | [Appendix](https://saic-mdal.github.io/HiDT/paper/High-Resolution_Daytime_Translation_Without_Domain_Labels.pdf) | [TwoMinutePapers](https://www.youtube.com/watch?v=EWKAgwgqXB4)
 
 [![Open HiDT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saic-mdal/hidt/blob/master/notebooks/HighResolutionDaytimeTranslation.ipynb)
